@@ -26,7 +26,7 @@ In	certain	circumstances,	I	will	allow	a	group	to	only	demonstrate	one	topic	if	
 These	would	include	complex	APIs	such	as	highcharts,	or	the	demonstration	of	a	Framework	(e.g.	ReactJS)	as	opposed	to	plugins/APIs.			While	each	page	of	the	template	should	be	reasonably	well	designed	you	can	allocate	specific	pages	to	specific	tasks	(one	page	for	each	plugin)	or	mix	and	match.		
 All	code	must	be	documented.	You	will	also	need	to	submit	everything	to	Turnitin.		
 		
-Deadlines:		Friday,	March	24th	at	17:00.	Email	me	with	the	name	of	your	group,	student	names	and	one	plugin/API	
+Deadlines:		Friday,	May 2nd	at	17:00.	Email	me	with	the	name	of	your	group,	student	names	and	one	plugin/API	
 that	you	intend	to	use		
 
 Friday,	March	31st	at	17:00.	Email	me	the	final	list	of	plugins/APIs	you	intend	to	use	(including	links	to	their	locations),	

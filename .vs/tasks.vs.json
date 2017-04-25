@@ -1,0 +1,10 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskName": "task-jquery.adaptive-backgrounds",
+      "appliesTo": "plugins/jquery.adaptive-backgrounds.js-master/jquery.adaptive-backgrounds.js",
+      "type": "command"
+    }
+  ]
+}

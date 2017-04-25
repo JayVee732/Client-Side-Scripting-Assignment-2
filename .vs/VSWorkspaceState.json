@@ -1,7 +1,11 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\plugins",
+    "\\plugins\\jquery.adaptive-backgrounds.js",
+    "\\plugins\\jqVintageTxt",
+    "\\plugins\\jqVintageTxt\\img"
   ],
-  "SelectedNode": "\\index.html",
+  "SelectedNode": "\\plugins\\jqVintageTxt\\main.js",
   "PreviewInSolutionExplorer": false
 }

@@ -1,3 +1,9 @@
+//Adaptive Background
+$(document).ready(function () {
+    $.adaptiveBackground.run();
+});
+
+//VintageTXT
 $(function () {
   var VintageTxtTest = {
     
@@ -8,7 +14,7 @@ $(function () {
          text : ["4 8 15 16 23 42",".  .  .  "]
         ,textSpeed: 300
         ,promptEnabled: false
-          , overlayImage: 'plugins/jqVintageTxt/img/lostpcB.png'
+        ,overlayImage: 'plugins/jqVintageTxt/img/lostpcB.png'
         ,onFinishedTyping : this.intro
       });
 

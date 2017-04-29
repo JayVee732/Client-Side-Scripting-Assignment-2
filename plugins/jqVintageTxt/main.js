@@ -1,5 +1,9 @@
 //Adaptive Background
-$(document).ready(function () {
+var pcPic = $("img[src$='plugins/jqVintageTxt/img/lostpcB.png']");
+alert(pcPic);
+$(pcPic).ready(function () {
+    pcPic.attr("data-adaptive-background", 1);
+    pcPic.attr("data-ab-css-background");
     $.adaptiveBackground.run();
 });
 
@@ -17,7 +21,6 @@ $(function () {
         ,overlayImage: 'plugins/jqVintageTxt/img/lostpcB.png'
         ,onFinishedTyping : this.intro
       });
-
     },
 
     intro : function intro() {

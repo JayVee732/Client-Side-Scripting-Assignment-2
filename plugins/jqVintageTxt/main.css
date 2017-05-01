@@ -10,7 +10,8 @@
     Styling
 */
 
-header{
+header, #copyright{
+    text-decoration:none;
     text-align:center;
 }
 

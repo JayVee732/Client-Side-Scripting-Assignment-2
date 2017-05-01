@@ -1,44 +1,57 @@
-
-<!-- Vintage Text + Modal -->
+<!-- Vintage Text + Adaptive Background (feat jQueryUI) -->
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 <head>
-    <title>Basic 88</title>
+    <title>Page 2</title>
     <meta charset="iso-8859-1">
+
+    <!-- Template CSS was conflicting with VintageTxt's CSS -->
     <!-- <link rel="stylesheet" href="styles/layout.css" type="text/css"> -->
+
     <!-- VintageTXT CSS -->
     <link rel="stylesheet" href="plugins\jqVintageTxt\main.css" type="text/css">
     <link rel="stylesheet" href="plugins\jqVintageTxt\normalize.css" type="text/css">
     <link rel="stylesheet" href="plugins\jqVintageTxt\jquery.vintageTxt.css" type="text/css">
     <link rel="stylesheet" href="plugins\jqVintageTxt\vintageTxt.css" type="text/css">
 
-    <!--[if lt IE 9]><script src="scripts/html5shiv.js"></script><![endif]-->
+    <!-- jQuery UI CSS -->
+    <link rel="stylesheet" href="plugins\jquery-ui-1.12.1\jquery-ui.css" type="text/css">
 </head>
 <body>
+    <!-- Loading jQuery first -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+
     <div class="wrapper row1">
         <header id="header" class="clear">
             <div id="hgroup">
-                <h1>VintageTXT & Adaptive Background</h1>
+                <h1>VintageTXT & Adaptive Background (feat jQueryUI)</h1>
             </div>
-            <nav>
-                <p><a href="index.html">Form</a></p>
-                <p><a href="Page 3.html">Planets</a></p>
-            </nav>
+            <div class="widget">
+                <a href="index.html">Form</a>
+                <a href="Page 3.html">Planets</a>
+            </div>
         </header>
     </div>
+
+    <!-- Start of jQuery UI-->
+    <script src="plugins\jquery-ui-1.12.1\jquery-ui.js"></script>
+    <script src="plugins\jquery-ui-1.12.1\main.js"></script>
+    <!-- End of jQuery UI -->
+
     <!-- Start of Vintage TXT -->
     <div id="miniTxt"></div>
     <div id="doThis"></div>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
     <script src="plugins\jqVintageTxt\jquery.vintageTxt.js"></script>
     <script src="plugins\jqVintageTxt\main.js"></script>
     <!-- End of Vintage TXT -->
+
     <!-- Start of Adaptive Background -->
     <script src="plugins\jquery.adaptive-backgrounds.js\jquery.adaptive-backgrounds.js"></script>
     <!-- End of Adaptive Background-->
+
     <!-- Copyright -->
-    <div class="wrapper row4">
+    <div>
         <footer id="copyright" class="clear">
             <p class="fl_left">Copyright &copy; 2012 - All Rights Reserved - <a href="#">Domain Name</a></p>
             <p class="fl_right">Template by <a href="http://www.os-templates.com/" title="Free Website Templates">OS Templates</a></p>

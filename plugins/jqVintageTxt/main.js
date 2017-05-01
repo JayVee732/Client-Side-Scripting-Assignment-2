@@ -84,6 +84,4 @@ $(function () {
   $("img.vintageTxt_overlay").attr("data-ab-parent", 'body');
   $.adaptiveBackground.run();
 
-  $("img.vintageTxt_overlay").leanModal();
-
 });

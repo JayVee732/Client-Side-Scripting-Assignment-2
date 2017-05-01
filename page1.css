@@ -1,0 +1,30 @@
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align:center;
+    background-color:lightgray;
+}
+
+#header {
+    font-size:70px;
+}
+
+#alarm {
+    font-size:40px;
+}
+a {
+    margin:50px;
+    text-decoration:none;
+}
+
+#nav {
+    font-size: large;
+}
+
+#email{
+    font-size:50px;
+}
+article {
+    text-align:left;
+    background-color:white;
+    padding:20px;
+}

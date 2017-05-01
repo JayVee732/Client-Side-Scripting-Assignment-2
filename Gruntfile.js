@@ -1,13 +1,16 @@
 module.exports = function (grunt) {
 
     grunt.initConfig({
-        concat: {
-            dist: {
-                src: ['src/intro.js', 'src/project.js', 'src/outro.js'],
-                dest: 'dist/built.js',
+        watch: {
+            html: {
+                files: '**/*.html',
+                tasks: ['html'],
+                options: {
+                    livereload: true,
+                },
             },
         },
     });
-
-    grunt.loadNpmTasks('grunt-contrib-concat');
+    
+    grunt.loadNpmTasks('grunt-contrib-watch');
 };

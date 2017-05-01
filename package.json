@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/PsychoHacks/Client-Side-Scripting-Assignment-2#readme",
   "devDependencies": {
-    "grunt-contrib-concat": "^1.0.1"
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-watch": "^1.0.0"
   }
 }

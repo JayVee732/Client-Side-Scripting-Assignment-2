@@ -15,7 +15,11 @@ body{margin:0; padding:0; font-size:13px; font-family:Georgia, "Times New Roman"
 html[xmlns] .clear{display:block;}
 * html .clear{height:1%;}
 
-a{outline:none; text-decoration:none;}
+a {
+    outline: none;
+    text-decoration: none;
+    background-color: transparent;
+}
 
 code{font-weight:normal; font-style:normal; font-family:Georgia, "Times New Roman", Times, serif;}
 
@@ -37,11 +41,14 @@ q:after{content:' „'; font-size:26px; line-height:0;}
 
 /* ----------------------------------------------Wrapper-------------------------------------*/
 
-div.wrapper{display:block; width:100%; margin:0; padding:0; text-align:left;}
-
+.wrapper{display:block; width:100%; margin:0; padding:0; text-align:left;}
 .row1, .row1 a{color:#C0BAB6; background-color:#333333;}
-.row2{color:#979797; background-color:#FFFFFF;}
-.row2 a{color:#FF9900; background-color:#FFFFFF;}
+.row2 {
+    color: #979797;
+    background-color: #FFFFFF;
+    background-image: url(../images/stardust.jpg);
+    display: block;
+}
 .row3{color:#989898; background-color:#333333;}
 .row3 a{color:#FF9900; background-color:#333333;}
 .row4, .row4 a{color:#919191; background-color:#232323;}
@@ -79,7 +86,7 @@ input, textarea, select{font-size:12px; font-family:Georgia,"Times New Roman",Ti
 
 /*----------------------------------------------Header-------------------------------------*/
 
-#header{padding:20px 0;}
+#header {padding: 20px 0; margin: 0 auto;}
 
 #header #hgroup{float:left; margin:0 0 20px 0;}
 #header #hgroup h1, #header #hgroup h2{font-weight:normal; font-style:normal; text-transform:none;}

@@ -1,0 +1,22 @@
+{
+  "name": "client-side-scripting-project-2",
+  "version": "1.0.0",
+  "description": "Details:\tYou\tare\trequired\tto\tcreate\ta\t3\tor\t4\tpage\twebsite\twhich\tdemonstrates\tthe\tcapabilities\tof\tJQuery\tplugins\t\r (or\tAPIs)\twhich\tshould\tbe\tdemonstrated\tusing\tjQuery\tcode\t(JavaScript\tcan\tbe\tincluded\tas\trequired).\t\r You\tshould\talso\tresearch\tand\tuse\ta\tJavaScript\ttask\trunner\tin\tconjunction\twith\tyour\tassignment,\tand\tideally,\t\r store\tyour\tcode\ton\ta\tcode\trepository.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PsychoHacks/Client-Side-Scripting-Assignment-2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PsychoHacks/Client-Side-Scripting-Assignment-2/issues"
+  },
+  "homepage": "https://github.com/PsychoHacks/Client-Side-Scripting-Assignment-2#readme",
+  "devDependencies": {
+    "grunt-contrib-concat": "^1.0.1"
+  }
+}

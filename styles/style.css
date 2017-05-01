@@ -20,9 +20,9 @@
 	text-align: center;
 }
 .selection {
-	grid-row: 2;
-	grid-column: 1 / 4;
-	text-align: center;
+    grid-row: 2;
+    grid-column: 1 / 4;
+    text-align: center;
 }
 .mercury {
   grid-column: 1;
@@ -91,15 +91,14 @@
 h1 {
 	font-size: 72px;
 }
-p, h1, h2, li {
-	color: red;
+.row2 p, .row2 h1, .row2 h2, .row2 li, .row2 a {
+    color: red;
 }
 ul > li {
 	margin-right: 10px;
     display: inline-block;
     zoom:1;
 }
-
 .back-to-top {
 	background: none; 
 	margin: 0; 
@@ -114,7 +113,10 @@ ul > li {
 	color: #ffffff; 
 	background-color: #ff9000; 
 }
- 
 .back-to-top i {
 	font-size: 60px; 
+}
+.row2 a:hover {
+    color: green;
+    background-color: transparent;
 }

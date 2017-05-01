@@ -6,6 +6,19 @@
  * Kroc Camen, and the H5BP dev community and team.
  */
 
+/*
+    Styling
+*/
+
+header{
+    text-align:center;
+}
+
+nav{
+    display:inline-block;
+}
+
+
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */

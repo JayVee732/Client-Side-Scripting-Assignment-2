@@ -327,10 +327,10 @@
       var quoteIndex = Math.floor(Math.random()*5);
       var quotes = [
         "How profound.",
+        "Quite!",
         "Words of genius.",
         "Said the blind man as he picked up his hammer and saw.",
-        "Says you.",
-        "<a href='https://www.youtube.com/watch?v=PpccpglnNf0'>Goats Yelling Like People</a>"
+        "Says you."
       ];
       return quotes[quoteIndex];
   }

@@ -3,9 +3,35 @@
 <head>
     <title>Basic 88</title>
     <meta charset="iso-8859-1">
-    <link rel="stylesheet" href="styles/layout.css" type="text/css">
+
+    <!--<link rel="stylesheet" href="styles/layout.css" type="text/css">  -->
     <!--[if lt IE 9]><script src="scripts/html5shiv.js"></script><![endif]-->
-    
+    <!-- timedropper css-->
+    <link rel="stylesheet" href="plugins/timedropper-master/timedropper.css" type="text/css">
+    <!-- jquery notebook + fontawesome css -->
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="bower_components/jquery-notebook/src/js/jquery.notebook.css">
+    <style>
+        .my-editor {
+            border: solid thin grey 3px;
+        }
+        .editor {
+            width: 680px;
+            margin: 100px auto;
+            height: 700px;
+            font-family: "Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Verdana,sans-serif;
+            line-height: 25px;
+        }
+
+        .info {
+            width: 900px;
+            margin: 45px auto;
+            background: rgb(230, 255, 230);
+            padding: 15px;
+            border-radius: 3px;
+            color: rgb(33, 33, 33);
+        }
+    </style>
 </head>
 <body>
     <div class="wrapper row1">
@@ -27,6 +53,7 @@
     </div>
     <!-- content -->
     <!-- SuperPlaceholder -->
+    <h1>SuperPlaceHolder</h1>
     <div class="row">
         <input id="email" type="text" value="" placeholder="Email">
     </div>
@@ -37,6 +64,19 @@
 
     <script src="node_modules\superplaceholder\spMain.js"></script>
 
+    <!-- Timedropper -->
+    <h1>Timedropper</h1>
+    <input type="text" id="alarm" />
+
+    <script src="plugins\timedropper-master\timedropper.js"></script>
+    <script src="plugins\timedropper-master\tdMain.js"></script>
+
+    <!-- jquery notebook -->
+    <h1>jQuery-Notebook: WYSIWYG rich text editor</h1>
+    <div class="my-editor"></div>
+
+    <script type="text/javascript" src="bower_components/jquery-notebook/src/js/jquery.notebook.js"></script>
+    <script type="text/javascript" src="bower_components/jquery-notebook/notebookMain.js"></script>
     <!-- Copyright -->
     <div class="wrapper row4">
         <footer id="copyright" class="clear">
